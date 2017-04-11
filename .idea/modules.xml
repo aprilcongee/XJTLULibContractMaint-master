@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/accounting/accounting.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/accounting/accounting.iml" group="applications/accounting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/applications.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/applications.iml" group="applications" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/assetmaint/assetmaint.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/assetmaint/assetmaint.iml" group="specialpurpose/assetmaint" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/base/base.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/base/base.iml" group="framework/base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/bi/bi.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/bi/bi.iml" group="specialpurpose/bi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/birt/birt.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/birt/birt.iml" group="specialpurpose/birt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/themes/bluelight/bluelight.iml" filepath="$PROJECT_DIR$/.idea/modules/themes/bluelight/bluelight.iml" group="themes/bluelight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/catalina/catalina.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/catalina/catalina.iml" group="framework/catalina" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/cmssite/cmssite.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/cmssite/cmssite.iml" group="specialpurpose/cmssite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/common/common.iml" group="framework/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/commonext/commonext.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/commonext/commonext.iml" group="applications/commonext" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/content/content.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/content/content.iml" group="applications/content" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/contractmaint/contractmaint.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/contractmaint/contractmaint.iml" group="specialpurpose/contractmaint" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/datafile/datafile.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/datafile/datafile.iml" group="framework/datafile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/datamodel/datamodel.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/datamodel/datamodel.iml" group="applications/datamodel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/ecommerce/ecommerce.iml" group="specialpurpose/ecommerce" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/entity/entity.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/entity/entity.iml" group="framework/entity" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/entityext/entityext.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/entityext/entityext.iml" group="framework/entityext" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/example/example.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/example/example.iml" group="specialpurpose/example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/exampleext/exampleext.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/exampleext/exampleext.iml" group="specialpurpose/exampleext" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/themes/flatgrey/flatgrey.iml" filepath="$PROJECT_DIR$/.idea/modules/themes/flatgrey/flatgrey.iml" group="themes/flatgrey" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/framework.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/framework.iml" group="framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/hhfacility/hhfacility.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/hhfacility/hhfacility.iml" group="specialpurpose/hhfacility" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hot-deploy/hot-deploy.iml" filepath="$PROJECT_DIR$/.idea/modules/hot-deploy/hot-deploy.iml" group="hot-deploy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/humanres/humanres.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/humanres/humanres.iml" group="applications/humanres" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/images/images.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/images/images.iml" group="framework/images" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/ldap/ldap.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/ldap/ldap.iml" group="specialpurpose/ldap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/lucene/lucene.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/lucene/lucene.iml" group="specialpurpose/lucene" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/manufacturing/manufacturing.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/manufacturing/manufacturing.iml" group="applications/manufacturing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/marketing/marketing.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/marketing/marketing.iml" group="applications/marketing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/minilang/minilang.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/minilang/minilang.iml" group="framework/minilang" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/themes/multiflex/multiflex.iml" filepath="$PROJECT_DIR$/.idea/modules/themes/multiflex/multiflex.iml" group="themes/multiflex" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/myportal/myportal.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/myportal/myportal.iml" group="specialpurpose/myportal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ofbiz.iml" filepath="$PROJECT_DIR$/.idea/modules/ofbiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ofbiz_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ofbiz_main.iml" group="ofbiz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ofbiz_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ofbiz_test.iml" group="ofbiz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/order/order.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/order/order.iml" group="applications/order" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/party/party.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/party/party.iml" group="applications/party" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/passport/passport.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/passport/passport.iml" group="specialpurpose/passport" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hot-deploy/practice/practice.iml" filepath="$PROJECT_DIR$/.idea/modules/hot-deploy/practice/practice.iml" group="hot-deploy/practice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/pricat/pricat.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/pricat/pricat.iml" group="specialpurpose/pricat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/product/product.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/product/product.iml" group="applications/product" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/projectmgr/projectmgr.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/projectmgr/projectmgr.iml" group="specialpurpose/projectmgr" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/themes/rainbowstone/rainbowstone.iml" filepath="$PROJECT_DIR$/.idea/modules/themes/rainbowstone/rainbowstone.iml" group="themes/rainbowstone" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/scrum/scrum.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/scrum/scrum.iml" group="specialpurpose/scrum" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/security/security.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/security/security.iml" group="framework/security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/securityext/securityext.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/securityext/securityext.iml" group="applications/securityext" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/service/service.iml" group="framework/service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/solr/solr.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/solr/solr.iml" group="specialpurpose/solr" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/specialpurpose.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/specialpurpose.iml" group="specialpurpose" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/start/start.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/start/start.iml" group="framework/start" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/testtools/testtools.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/testtools/testtools.iml" group="framework/testtools" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/themes/themes.iml" filepath="$PROJECT_DIR$/.idea/modules/themes/themes.iml" group="themes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/themes/tomahawk/tomahawk.iml" filepath="$PROJECT_DIR$/.idea/modules/themes/tomahawk/tomahawk.iml" group="themes/tomahawk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/webapp/webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/webapp/webapp.iml" group="framework/webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/specialpurpose/webpos/webpos.iml" filepath="$PROJECT_DIR$/.idea/modules/specialpurpose/webpos/webpos.iml" group="specialpurpose/webpos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/webtools/webtools.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/webtools/webtools.iml" group="framework/webtools" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/widget/widget.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/widget/widget.iml" group="framework/widget" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/workeffort/workeffort.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/workeffort/workeffort.iml" group="applications/workeffort" />
+    </modules>
+  </component>
+</project>

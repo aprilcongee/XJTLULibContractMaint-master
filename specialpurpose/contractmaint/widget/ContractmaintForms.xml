@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns="http://ofbiz.apache.org/Widget-Form" xsi:schemaLocation="http://ofbiz.apache.org/Widget-Form http://ofbiz.apache.org/dtds/widget-form.xsd">
+
+    <form name="AddContract" type="single" target="createContract">
+        <!-- We have this utility in OFBiz to render form based on service definition.
+             Service attributes will automatically lookedup and will be shown on form
+        -->
+        <auto-fields-service service-name="createContract"/>
+        <field name="contractId" title="${uiLabelMap.CommonType}">
+            <drop-down allow-empty="false" current-description="">
+                <!---We have made this drop down options dynamic(Values from db) using this -->
+                <entity-options description="${contractName}" key-field-name="contractId" entity-name="Contract">
+                    <entity-order-by field-name="contractId"/>
+                </entity-options>
+            </drop-down>
+        </field>
+        <field name="submitButton" title="${uiLabelMap.CommonAdd}"><submit button-type="button"/></field>
+    </form>
+
+    <form name="AddSupplier" type="single" target="createSupplier">
+        <!-- We have this utility in OFBiz to render form based on service definition.
+             Service attributes will automatically lookedup and will be shown on form
+        -->
+        <auto-fields-service service-name="createSupplier"/>
+        <field name="supplierId" title="${uiLabelMap.CommonType}">
+            <drop-down allow-empty="true" current-description="">
+                <!---We have made this drop down options dynamic(Values from db) using this -->
+                <entity-options description="${supplierName}" key-field-name="supplierId" entity-name="Supplier">
+                    <entity-order-by field-name="supplierName"/>
+                </entity-options>
+            </drop-down>
+        </field>
+        <field name="submitButton" title="${uiLabelMap.CommonAdd}"><submit button-type="button"/></field>
+    </form>
+
+    <form name="FindContract" type="single" target="FindContract" default-entity-name="Contract">
+        <field name="noConditionFind"><hidden value="Y"/> <!-- if this isn't there then with all fields empty no query will be done --></field>
+        <field name="contractId" title="${uiLabelMap.contractId}"><text-find/></field>
+        <field name="contractName" title="${uiLabelMap.contractName}"><text-find/></field>
+        <field name="contractId" title="${uiLabelMap.CommonType}">
+            <drop-down allow-empty="true" current-description="">
+                <entity-options description="${description}" key-field-name="contractId" entity-name="Contract">
+                    <entity-order-by field-name="description"/>
+                </entity-options>
+            </drop-down>
+        </field>
+        <field name="searchButton" title="${uiLabelMap.CommonFind}" widget-style="smallSubmit"><submit button-type="button" image-location="/images/icons/magnifier.png"/></field>
+    </form>
+
+    <form name="ListContract" type="list" list-name="listIt" paginate-target="FindContract" default-entity-name="Contract" separate-columns="true"
+          odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar">
+        <actions>
+            <!-- Preparing search results for user query by using OFBiz stock service to perform find operations on a single entity or view entity -->
+            <service service-name="performFind" result-map="result" result-map-list="listIt">
+                <field-map field-name="inputFields" from-field="contractCtx"/>
+                <field-map field-name="entityName" value="Contract"/>
+                <field-map field-name="orderBy" from-field="parameters.sortField"/>
+                <field-map field-name="viewIndex" from-field="viewIndex"/>
+                <field-map field-name="viewSize" from-field="viewSize"/>
+            </service>
+        </actions>
+        <field name="contractId" title="${uiLabelMap.ContractId}"><display/></field>
+        <field name="contractId" title="${uiLabelMap.CommonType}"><display-entity entity-name="Contract"/></field>
+        <field name="contractId" title="${uiLabelMap.contractId}" sort-field="true"><display/></field>
+        <field name="contractName" title="${uiLabelMap.contractName}" sort-field="true"><display/></field>
+    </form>
+
+    <form name="FindSupplier" type="single" target="FindSupplier" default-entity-name="Supplier">
+        <field name="noConditionFind"><hidden value="Y"/> <!-- if this isn't there then with all fields empty no query will be done --></field>
+        <field name="supplierId" title="${uiLabelMap.supplierId}"><text-find/></field>
+        <field name="supplierName" title="${uiLabelMap.supplierName}"><text-find/></field>
+        <field name="supplierId" title="${uiLabelMap.CommonType}">
+            <drop-down allow-empty="true" current-description="">
+                <entity-options description="${description}" key-field-name="supplierId" entity-name="Supplier">
+                    <entity-order-by field-name="description"/>
+                </entity-options>
+            </drop-down>
+        </field>
+        <field name="searchButton" title="${uiLabelMap.CommonFind}" widget-style="smallSubmit"><submit button-type="button" image-location="/images/icons/magnifier.png"/></field>
+    </form>
+
+    <form name="ListSupplier" type="list" list-name="listIt" paginate-target="FindSupplier" default-entity-name="Supplier" separate-columns="true"
+          odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar">
+        <actions>
+            <!-- Preparing search results for user query by using OFBiz stock service to perform find operations on a single entity or view entity -->
+            <service service-name="performFind" result-map="result" result-map-list="listIt">
+                <field-map field-name="inputFields" from-field="suppliereCtx"/>
+                <field-map field-name="entityName" value="Supplier"/>
+                <field-map field-name="orderBy" from-field="parameters.sortField"/>
+                <field-map field-name="viewIndex" from-field="viewIndex"/>
+                <field-map field-name="viewSize" from-field="viewSize"/>
+            </service>
+        </actions>
+        <field name="supplierId" title="${uiLabelMap.supplierId}"><display/></field>
+        <field name="supplierId" title="${uiLabelMap.CommonType}"><display-entity entity-name="Supplier"/></field>
+        <field name="supplierId" title="${uiLabelMap.supplierId}" sort-field="true"><display/></field>
+        <field name="supplierName" title="${uiLabelMap.supplierName}" sort-field="true"><display/></field>
+    </form>
+
+</forms>

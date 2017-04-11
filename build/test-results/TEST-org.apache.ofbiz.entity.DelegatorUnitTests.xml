@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.ofbiz.entity.DelegatorUnitTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-04-10T07:44:37" hostname="Macintosh.local" time="7.896">
+  <properties/>
+  <testcase name="delegatorCreationUsingConstructorFailsIfConfigurationIsMissing" classname="org.apache.ofbiz.entity.DelegatorUnitTests" time="1.456"/>
+  <testcase name="delegatorCreationUsingConstructor" classname="org.apache.ofbiz.entity.DelegatorUnitTests" time="6.432"/>
+  <testcase name="delegatorCreationUsingFactoryGetInstance" classname="org.apache.ofbiz.entity.DelegatorUnitTests" time="0.002"/>
+  <testcase name="delegatorCreationUsingFactoryGetDelegator" classname="org.apache.ofbiz.entity.DelegatorUnitTests" time="0.004"/>
+  <testcase name="delegatorCreationUsingFactoryReturnsNullIfConfigurationIsMissing" classname="org.apache.ofbiz.entity.DelegatorUnitTests" time="0.0"/>
+  <system-out><![CDATA[2017-04-10 15:44:37,129 |Test worker          |UtilCodec                     |E| Canonicalization (format consistency, character escaping that is mixed or double, etc) error for attribute named [double-encoding], String [%2%353Cscript]: org.apache.ofbiz.base.util.UtilCodec$IntrusionException: Input validation failure
+2017-04-10 15:44:37,299 |Test worker          |UtilXml                       |W| [UtilXml.LocalResolver.resolveEntity] could not find LOCAL DTD/Schema with publicId [null] and the file/resource is [entity-config.xsd]
+2017-04-10 15:44:38,695 |Test worker          |ModelReader                   |I| Finished loading entities; #Entities=0 #ViewEntities=0 #Fields=0 #Relationships=0 #AutoRelationships=0
+2017-04-10 15:44:38,697 |Test worker          |GenericDelegator              |I| Doing entity definition check...
+2017-04-10 15:44:38,700 |Test worker          |ModelEntityChecker            |I| [initReservedWords] array length = 1025
+2017-04-10 15:44:38,702 |OFBiz-batch-1        |GenericDelegator              |I| Delegator "default" initializing helper "localderby" for entity group "org.apache.ofbiz".
+2017-04-10 15:44:38,737 |OFBiz-batch-1        |UtilXml                       |W| [UtilXml.LocalResolver.resolveEntity] could not find LOCAL DTD/Schema with publicId [null] and the file/resource is [entity-config.xsd]
+2017-04-10 15:44:39,563 |OFBiz-batch-1        |UtilXml                       |W| [UtilXml.LocalResolver.resolveEntity] could not find LOCAL DTD/Schema with publicId [null] and the file/resource is [fieldtypemodel.xsd]
+2017-04-10 15:44:39,976 |OFBiz-batch-1        |GenericDelegator              |I| Doing database check as requested in entityengine.xml with addMissing=true
+2017-04-10 15:44:45,029 |Test worker          |DelegatorFactoryImpl          |I| Creating new delegator [default] (Test worker)
+2017-04-10 15:44:45,029 |Test worker          |GenericDelegator              |I| Doing entity definition check...
+2017-04-10 15:44:45,029 |Test worker          |ModelEntityChecker            |I| [initReservedWords] array length = 1025
+2017-04-10 15:44:45,029 |OFBiz-batch-1        |GenericDelegator              |I| Delegator "default" initializing helper "localderby" for entity group "org.apache.ofbiz".
+2017-04-10 15:44:45,029 |OFBiz-batch-1        |GenericDelegator              |I| Doing database check as requested in entityengine.xml with addMissing=true
+2017-04-10 15:44:45,030 |Test worker          |DelegatorFactoryImpl          |I| Creating new delegator [default] (Test worker)
+2017-04-10 15:44:45,030 |Test worker          |GenericDelegator              |I| Doing entity definition check...
+2017-04-10 15:44:45,030 |Test worker          |ModelEntityChecker            |I| [initReservedWords] array length = 1025
+2017-04-10 15:44:45,030 |OFBiz-batch-1        |GenericDelegator              |I| Delegator "default" initializing helper "localderby" for entity group "org.apache.ofbiz".
+2017-04-10 15:44:45,030 |OFBiz-batch-1        |GenericDelegator              |I| Doing database check as requested in entityengine.xml with addMissing=true
+2017-04-10 15:44:45,033 |delegator-startup-1  |DelegatorFactoryImpl          |I| Creating new delegator [default] (delegator-startup-1)
+2017-04-10 15:44:45,033 |delegator-startup-1  |GenericDelegator              |I| Doing entity definition check...
+2017-04-10 15:44:45,033 |delegator-startup-1  |ModelEntityChecker            |I| [initReservedWords] array length = 1025
+2017-04-10 15:44:45,033 |OFBiz-batch-1        |GenericDelegator              |I| Delegator "default" initializing helper "localderby" for entity group "org.apache.ofbiz".
+2017-04-10 15:44:45,033 |OFBiz-batch-1        |GenericDelegator              |I| Doing database check as requested in entityengine.xml with addMissing=true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
